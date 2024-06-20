@@ -1,0 +1,127 @@
+/* Global styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+    color: #333;
+}
+
+/* Container for the entire application */
+.app-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 1em;
+}
+
+/* Header styles */
+header {
+    background-color: #007BFF;
+    padding: 1em 0;
+    color: white;
+    text-align: center;
+    margin-bottom: 2em;
+}
+
+/* Navigation styles */
+nav {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 2em;
+}
+
+nav a {
+    margin: 0 1em;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+/* Footer styles */
+footer {
+    background-color: #007BFF;
+    padding: 1em 0;
+    color: white;
+    text-align: center;
+    margin-top: 2em;
+}
+
+/* Form styles */
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form div {
+    margin-bottom: 1em;
+}
+
+form label {
+    margin-bottom: 0.5em;
+    color: #666;
+}
+
+form input {
+    padding: 0.5em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+form button {
+    padding: 0.7em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #0056b3;
+}
+
+/* Common button styles */
+button {
+    padding: 0.7em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+/* Common message styles */
+.error-message {
+    color: red;
+    text-align: center;
+}
+
+.success-message {
+    color: green;
+    text-align: center;
+}
+
+/* Utility classes */
+.text-center {
+    text-align: center;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.margin-bottom {
+    margin-bottom: 2em;
+}

@@ -1,0 +1,37 @@
+.recipe-detail-container {
+    padding: 2em;
+    max-width: 800px;
+    margin: auto;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+.ingredients,
+.instructions {
+    margin-top: 2em;
+}
+
+.ingredients ul,
+.instructions ol {
+    padding-left: 1.5em;
+}
+
+button {
+    padding: 0.7em;
+    color: white;
+    background-color: #007BFF;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
